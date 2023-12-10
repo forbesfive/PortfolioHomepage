@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Homepage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark p-3 fixed-top">
+        <div class="container">
+          <a href="#" class="navbar-brand">Portfolio Webpage</a>
+  
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#hero" class="nav-link">Hero</a>
+              </li>
+              <li class="nav-item">
+                <a href="#skills" class="nav-link">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a href="#projects" class="nav-link">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a href="#footer" class="nav-link">Contact Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- Showcase -->
+    <header class="bg-dark text-light py-3 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>Portfolio Homepage</h1>
+                    <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi praesentium nesciunt eaque nostrum dolore impedit odit tenetur consequatur itaque, ipsam est consectetur esse ad quae! Dolore aperiam incidunt blanditiis suscipit.</p>
+                </div>
+                <img class="image-fluid w-50 m-2 d-none d-sm-block" src="img/undraw_developer_activity_re_39tg.svg" alt="">
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero p-5" id="hero">
+            <div class="container p-5">
+                <h2 class="text-center mb-4">Hero</h2>
+                <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, ex temporibus officiis sed soluta ducimus vitae ab dolores doloribus voluptatum sunt nulla nemo quia eum?</p>
+            </div>
+            <div class="container">
+                <div id="heroCarousel" class="carousel slide">
+                    <div class="carousel-inner ">
+                      <div class="carousel-item active">
+                        <img src="img/photo-1513384312027-9fa69a360337.webp" class="d-block" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/photo-1593435221011-e009143b031e.webp" class="d-block" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/photo-1586370740632-f910eb4ad077.webp" class="d-block" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+              </div>
+        </section>
+        <!-- Skills Section -->
+        <section class="skills p-5" id="skills">
+            <div class="container p-5">
+                <h2 class="text-center mb-4">Skills</h2>
+            </div>
+            <div class="container" id="card-row">
+                <!-- <h1>Skills</h1> -->
+                <div class="row text-center">
+                    <div class="col-md">
+                        <div class="card bg-dark text-light p-3 align-items-center" style="width: 18rem;">
+                            <img src="img/html.jfif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h3 class="card-title mb-3">Skill 1</h3>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro a quae consectetur. Minima, assumenda quia ut.</p>
+                                <a href="#" class="btn btn-primary">Read More</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card bg-secondary text-light p-3 align-items-center" style="width: 18rem;">
+                        <img src="img/CSS.jfif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title mb-3">Skill 2</h3>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus explicabo eius rem facilis sint molestiae!</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                      </div></div>
+                    <div class="col-md">
+                        <div class="card bg-dark text-light p-3 align-items-center" style="width: 18rem;">
+                        <img src="img/JS.jfif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title mb-3">Skill 3</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, repudiandae! Impedit quidem quaerat natus.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- <ul>
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem, ipsum dolor.</li>
+            </ul> -->
+        </section>
+        <!-- Projects Section -->
+        <section id="projects" class="p-5">
+            <div class="container p-5">
+                <h2 class="text-center mb-4">Projects</h2>
+            </div>
+            <div class="accordion accordion-flush">
+                <!-- Item 1 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#project-one">
+                      Project #1
+                    </button>
+                  </h2>
+                  <div id="project-one" class="accordion-collapse collapse" data-bs-parent="#projects">
+                    <div class="accordion-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus tempora mollitia quod, libero atque labore in ipsam omnis itaque non cum, nostrum at tempore amet eius animi quasi repellat hic odit delectus fuga aperiam repellendus? Nam veritatis reprehenderit quos quasi voluptatem sint optio laudantium, voluptatibus quis ipsa provident itaque cum.</div>
+                  </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#project-two">
+                      Project #2
+                    </button>
+                  </h2>
+                  <div id="project-two" class="accordion-collapse collapse" data-bs-parent="#projects">
+                    <div class="accordion-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga eligendi repudiandae voluptatibus minus possimus quae culpa repellat asperiores soluta, assumenda laudantium! Consequatur magnam aut sit debitis aperiam eos culpa blanditiis, perferendis neque cum ratione, cupiditate fuga quam quibusdam eaque quae nulla. Saepe voluptates earum delectus vitae rem architecto mollitia modi.</div>
+                  </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#project-three">
+                      Project #3
+                    </button>
+                  </h2>
+                  <div id="project-three" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nisi, neque accusantium atque adipisci a reprehenderit, ratione corrupti consequuntur voluptates eos! Dicta maxime, fuga facere quo id officiis pariatur ipsam. Quasi, rem. Molestias non doloremque id minima at? Explicabo nostrum architecto fuga libero accusantium? Dolor quibusdam dolorem voluptate explicabo accusantium.</div>
+                  </div>
+                </div>
+              </div>
+            <!-- <h2>Projects</h2>
+            <ol>
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem, ipsum dolor.</li>
+            </ol> -->
+        </section>
+    </main>
+
+    <footer id="footer">
+        <!-- Contact Info -->
+        <section class="p-5" id="contactMe">
+            <div class="container">
+                <h2 class="text-center mb-4">Contact Me</h2>
+            </div>
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md">
+                        <ul class="list-group list-group-flush lead">
+                            <li class="list-group-item">
+                                <span class="fw-bold">Location:</span> 1 Merrion Way Leeds WY
+                            </li>
+                            <li class="list-group-item">
+                                <span class="fw-bold">Phone:</span> (555) 555-55555
+                            </li>
+                            <li class="list-group-item">
+                                <span class="fw-bold">Email:</span> abc@123.com
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md mobile-hide">
+                        <div class="mapouter">
+                            <div class="gmap_canvas ">
+                                <iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=1 merrion way&amp;t=&amp;z=18&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                                </iframe>
+                                <a href="https://embed-googlemap.com">embed google maps</a>
+                            </div>
+                            <!-- <style>.mapouter{position:relative;text-align:right;width:600px;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:600px;height:400px;}.gmap_iframe {width:600px!important;height:400px!important;}</style> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Contact Form -->
+            <div class="container pt-3">
+                <div class="row">
+                    <form id="contactForm">
+                        <div class="col-md-6 mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                    <!-- <h3>Contact</h3>
+                    <p><img src="images/1891029_cercle_email_envelope_letter_mail_icon.png" alt="circle email envelope" width="25" height="25">Email: <a href="mailto:email@sample.com?subject=Webpage Contact">John Doe</a></p>
+                    <p>&copy; 2023</p> -->
+                </div>
+            </div>
+            <!-- <table>
+                <th>Contact Me</th>
+                <tr>
+                    <td>Name:</td>
+                    <td>John Doe</td>
+                </tr>
+                <tr>
+                    <td>Phone:</td>
+                    <td>(555) 555-5555</td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td>abc@123.com</td>
+                </tr>
+            </table> -->
+        </section>
+        <p class="px-5">&copy 2023</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

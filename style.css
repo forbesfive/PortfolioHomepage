@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, #skills, footer {
+    background-color: blue;
+    color: White;
+    padding: 5px;
+}
+
+header {
+    text-align: center;
+    padding: 5px;
+}
+
+/* Bootstrap additions */
+.carousel-inner {
+    background: blue;
+}
+
+.carousel-inner > .carousel-item > img, 
+.carousel-inner > .carousel-item > a > img{
+    width: 50%; /* use this, or not */
+    margin: auto;
+}
+
+.card-img-top {
+    height: 100px;
+    width: 100px;
+}
+
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    width:300px;
+    height:170px;
+    /* margin-left: auto; */
+}
+
+.gmap_iframe {
+    width:300px!important;
+    height:170px!important;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .mobile-hide {
+        display: none; 
+    }
+    #contactform {
+        max-width: 648px;
+    }
+  }
+
+.list-group {
+    border-radius: 10px
+}
